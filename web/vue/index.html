@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue友最爱的10个开箱即用的开源项目 | Mr. Zhang&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/my-bloglogo.png">
+    <meta name="description" content="专注 Node.js 技术栈分享，从前端到Node.js再到数据库">
+    
+    <link rel="preload" href="/my-blog/assets/css/0.styles.acfffbb5.css" as="style"><link rel="preload" href="/my-blog/assets/js/app.af9a026c.js" as="script"><link rel="preload" href="/my-blog/assets/js/2.1f15f8f6.js" as="script"><link rel="preload" href="/my-blog/assets/js/13.4a02f44b.js" as="script"><link rel="prefetch" href="/my-blog/assets/js/10.e70d64e8.js"><link rel="prefetch" href="/my-blog/assets/js/11.6e0b7ff2.js"><link rel="prefetch" href="/my-blog/assets/js/12.9c0279be.js"><link rel="prefetch" href="/my-blog/assets/js/14.4ca11e8c.js"><link rel="prefetch" href="/my-blog/assets/js/15.7da2212c.js"><link rel="prefetch" href="/my-blog/assets/js/16.437f0410.js"><link rel="prefetch" href="/my-blog/assets/js/17.5835b2f3.js"><link rel="prefetch" href="/my-blog/assets/js/3.301dd809.js"><link rel="prefetch" href="/my-blog/assets/js/4.f748970b.js"><link rel="prefetch" href="/my-blog/assets/js/5.4ea63480.js"><link rel="prefetch" href="/my-blog/assets/js/6.2721a543.js"><link rel="prefetch" href="/my-blog/assets/js/7.e3689d62.js"><link rel="prefetch" href="/my-blog/assets/js/8.be26c923.js"><link rel="prefetch" href="/my-blog/assets/js/9.0b5a2aed.js">
+    <link rel="stylesheet" href="/my-blog/assets/css/0.styles.acfffbb5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/my-blog/" class="home-link router-link-active"><!----> <span class="site-name">Mr. Zhang's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/my-blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-blog/web/html/" class="nav-link">
+  Html
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/css/" class="nav-link">
+  Css
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/javascript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/vue/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/git/" class="nav-link">
+  Git
+</a></li></ul></div></div><div class="nav-item"><a href="/my-blog/node/" class="nav-link">
+  Node
+</a></div><div class="nav-item"><a href="/my-blog/database/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/my-blog/interview/" class="nav-link">
+  面试问题
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/my-blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-blog/web/html/" class="nav-link">
+  Html
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/css/" class="nav-link">
+  Css
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/javascript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/vue/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/web/git/" class="nav-link">
+  Git
+</a></li></ul></div></div><div class="nav-item"><a href="/my-blog/node/" class="nav-link">
+  Node
+</a></div><div class="nav-item"><a href="/my-blog/database/" class="nav-link">
+  数据库
+</a></div><div class="nav-item"><a href="/my-blog/interview/" class="nav-link">
+  面试问题
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Vue 学习</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/my-blog/web/vue/vue3.0.html" class="sidebar-link">初识vue3.0</a></li><li><a href="/my-blog/web/vue/test2.html" class="sidebar-link">测试02</a></li><li><a href="/my-blog/web/vue/test3.html" class="sidebar-link">测试03</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vue友最爱的10个开箱即用的开源项目"><a href="#vue友最爱的10个开箱即用的开源项目" class="header-anchor">#</a> Vue友最爱的10个开箱即用的开源项目</h1> <h3 id="iview"><a href="#iview" class="header-anchor">#</a> iview</h3> <p>​	网站: <a href="https://iviewui.com/" target="_blank" rel="noopener noreferrer">iviewui.com/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>​	iView是一套基于Vue.js的高质量UI组件库，可靠文档是其一大优势，用来快速构建web项目，相对友好的API更	好的服务于Vue友们，目前已更新到4.0版本。</p> <h3 id="cssfx"><a href="#cssfx" class="header-anchor">#</a> CSSFX</h3> <p>​	网站：https://github.com/jolaleye/cssfx</p> <p>​	这是一个极具匠心的设计，每一个效果都具备流动性、简单性和易用性。让广大Vue友快速使用相关button动    	效，让web呈现更加丰富。即可应对业务需求，也可自我提升实现。</p> <h3 id="uigradients"><a href="#uigradients" class="header-anchor">#</a> uiGradients</h3> <p>​	网站：<a href="https://uigradients.com/" target="_blank" rel="noopener noreferrer">uigradients.com/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>​	GitHub的：<a href="https://juejin.cn/post/https%EF%BC%9A//github.com/ghosh/uiGradients" target="_blank" rel="noopener noreferrer">https：//github.com/ghosh/uiGradients<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>​	这是一个CSS实现的线性渐变的效果集合，预览的每一个效果都可以复制源码开箱即用。</p> <h3 id="day-js"><a href="#day-js" class="header-anchor">#</a> Day.js</h3> <p>网站：https://github.com/iamkun/dayjs/blob/dev/docs/zh-cn/README.zh-CN.md</p> <p>Day.js 是一个轻量的处理时间和日期的 JavaScript 库</p> <h3 id="axios常用的接口请求库"><a href="#axios常用的接口请求库" class="header-anchor">#</a> Axios常用的接口请求库</h3> <p>网站：https://github.com/axios/axios</p> <h1 id="vue项目总结"><a href="#vue项目总结" class="header-anchor">#</a> Vue项目总结</h1> <h3 id="javascript相关"><a href="#javascript相关" class="header-anchor">#</a> Javascript相关</h3> <ul><li>数组常用方法：
+<ul><li>遍历：forEach(), map(), fillter(), every(), some(), reduce()</li> <li>操作方法：solice(), slice(), push(), shift(), pop(), sort()</li></ul></li> <li>基本数据结构：
+<ul><li>引用类型（对象、数组）</li></ul></li> <li>基本逻辑运算符：
+<ul><li>if else(){}</li> <li>switch</li> <li>三目运算</li> <li>for/while循环</li></ul></li> <li>常见的字符串api：
+<ul><li>replace    slice    substr    index of</li></ul></li> <li>变量作用域，作用域链，变量提升，函数声明提升</li> <li>对象基本使用，面向对象编程</li></ul> <h3 id="css相关"><a href="#css相关" class="header-anchor">#</a> css相关</h3> <h5 id="常用布局-https-juejin-cn-post-6907027007318687751"><a href="#常用布局-https-juejin-cn-post-6907027007318687751" class="header-anchor">#</a> 常用布局 https://juejin.cn/post/6907027007318687751</h5> <ul><li>基本盒模型（border、content、padding等）</li> <li>4种常见的定位（static、absolute、relative、fixed）</li> <li>常见的布局方式（浮动布局、弹性盒布局flex、自适应布局、网格布局grid）</li> <li>css3基本样式与动画（transition、animation）</li></ul> <h3 id="vue相关"><a href="#vue相关" class="header-anchor">#</a> vue相关</h3> <h5 id="_1-生命周期"><a href="#_1-生命周期" class="header-anchor">#</a> 1：生命周期</h5> <p>​		**created：**data和methods初始化完毕，此时可以使用methods中的方法和data中的数据</p> <p>​		**mounted：**此项Vue实例初始化完成，DOM还未挂载完毕，可以直接操作DOM或者第三方dom库</p> <h5 id="_2-常用指令"><a href="#_2-常用指令" class="header-anchor">#</a> 2：常用指令</h5> <p>​		v-bind：用户响应式的更新HTML元素</p> <p>​		v-if：根据表达式的值真假来决定是否插入/移除元素</p> <p>​		v-on：用于监听DOM事件</p> <p>​		v-show：用于决定是否展示该元素，底层通过display:nones实现</p> <p>​		v-html：在dom内插入html元素</p> <p>​		v-for：数据循环</p> <p>​		v-text：渲染制定dom的内容文本</p> <h5 id="_3-常用的修饰符及作用"><a href="#_3-常用的修饰符及作用" class="header-anchor">#</a> 3：常用的修饰符及作用</h5> <h6 id="_3-1-事件修饰符"><a href="#_3-1-事件修饰符" class="header-anchor">#</a> 3.1：事件修饰符</h6> <p>​			.stop 阻止事件冒泡</p> <p>​			.prevent 阻止事件默认行为</p> <p>​			.self 事件绑定的元素本身触发时才触发回调</p> <p>​			.once 事件只能触发一次，第二次就不会再触发了</p> <p>​			.native 将一个vue组件变成一个普通的html元素，使其可以监听click等原生事件</p> <p>​			&lt;Tag @click.native=&quot;handleClick&quot;&gt;ok</p> <h6 id="_3-2-表单修饰符"><a href="#_3-2-表单修饰符" class="header-anchor">#</a> 3.2：表单修饰符</h6> <p>​			.lazy 在输入框输入完内容，光标离开才更新视图</p> <p>​			.trim 过滤首尾空格</p> <p>​			.number  如果先输入数字，那它就会限制你输入的只能数数字，如果先输入字符串，那就相当于没有			加.numer<input type="text"></p> <h5 id="_4-vue实现按需加载组件"><a href="#_4-vue实现按需加载组件" class="header-anchor">#</a> 4：vue实现按需加载组件</h5> <p>​			使用 () =&gt; import()</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ComponentA</span> <span class="token punctuation">/&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ComponentB</span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">const</span> <span class="token function-variable function">ComponentA</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">'./ComponentA'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> <span class="token function-variable function">ComponentB</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token string">'./ComponentB'</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token comment">// ...</span>
+    components<span class="token operator">:</span> <span class="token punctuation">{</span>
+    ComponentA<span class="token punctuation">,</span> 
+    ComponentB 
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h5 id="_5-vuex的属性和作用"><a href="#_5-vuex的属性和作用" class="header-anchor">#</a> 5：vuex的属性和作用</h5> <p>Vuex是一个专门为vue.js应用程序开发的状态管理模式。它采用集中储存管理应用的所有组件状态，并以相应的规则保证状态以一种可预测的方式发生变化。</p> <p>state的改变完全由mutation控制，我们也没必要任何项目都使用vuex，对于中大型项目，需要共享的状态跟多时，使用vuex才是最佳的选择。</p> <ul><li><p>state单一状态树，用一个对象就包含了全部的应用层级状态，并且作为一个唯一数据源而存在</p></li> <li><p>getter就像计算属性一样，getter的返回值会根据它的依赖缓存起来，且只有当它的依赖值发生了改变才会被重新计算。</p></li></ul> <div class="language-vue extra-class"><pre class="language-vue"><code>const store = new Vuex.Store({
+	state:{
+		todos:[
+			{id:1,text:'...',done:true}
+			{id:2,text:'...',done:false}
+		]
+	},
+	getters:{
+		doneTodos:state =&gt;{
+			return state.todos.filter(todo =&gt;todo.done)
+		}
+	}
+})
+//访问getters里的属性
+this.$store.getters.doneTodos
+</code></pre></div><ul><li>Mutation更改Vuex的store中的状态的唯一方法</li></ul> <div class="language- extra-class"><pre class="language-text"><code>const store= new Vuex.Store({
+	state:{
+		num:1
+	},
+	mutatios:{
+		add(state){
+			state.num ++    //变更状态
+		}
+	}
+})
+//在项目中使用mutation
+store.commit('add')
+//添加额外参数
+store.commit('add',10)
+</code></pre></div><ul><li>Action 提交的是mutation，而不是直接变更状态，可以包含任意异步操作。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>const store = new Vuex.Store({
+	state:{
+		num:0
+	},
+	mutations:{
+		add(atste){
+			num ++
+		}
+	},
+	actions:{
+		add(context){
+			context.commit('add')
+		},
+		asyncAdd({commit}){
+			setTimeout(()=&gt;{
+				commit('add')
+			})
+		}
+	}
+})
+//分发 action
+store.dispatch('add')
+//异步
+store.dispatch('asyncAdd')
+//异步传参
+store.dispatch('asyncAdd',{num:10})
+</code></pre></div><h5 id="_6-vue-router基本使用模式和导航钩子"><a href="#_6-vue-router基本使用模式和导航钩子" class="header-anchor">#</a> 6：vue-router基本使用模式和导航钩子</h5> <p>以下案例是静态路由配置和导航钩子的用法（如何加载路由组件，动态加载路由组件，404页面路由配置，路由导航钩子使用）。如果在后台管理系统，往往会涉及到权限系统，所以一般采用动态路由配置，通过前后端约定的路由方式，路由配置文件更具不同用户的权限由后端处理后返回。</p> <div class="language- extra-class"><pre class="language-text"><code>// router.ts
+import Vue from 'vue';
+import Router from 'vue-router';
+import Home from './views/admin/Home.vue';
+
+Vue.use(Router);
+
+const router =  new Router({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes: [
+    {
+      path: '/',
+      component: Home,
+      beforeEnter: (to, from, next) =&gt; {
+        next();
+      },
+      children: [
+        {
+          // 当 /user/:id/profile 匹配成功，
+          // UserProfile 会被渲染在 User 的 &lt;router-view&gt; 中
+          path: '',
+          name: 'header',
+          component: () =&gt; import(/* webpackChunkName: &quot;header&quot; */ './views/admin/subpage/Header.vue'),
+        },
+
+        {
+          path: '/banner',
+          name: 'banner',
+          component: () =&gt; import(/* webpackChunkName: &quot;banner&quot; */ './views/admin/subpage/Banner.vue'),
+        },
+        {
+          path: '/admin',
+          name: 'admin',
+          component: () =&gt; import(/* webpackChunkName: &quot;admin&quot; */ './views/admin/Admin.vue'),
+        },
+      ],
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () =&gt; import(/* webpackChunkName: &quot;login&quot; */ './views/Login.vue'),
+      meta:{
+        keepAlive:false //不需要被缓存的组件
+      }
+    },
+    {
+      path: '*',
+      name: '404',
+      component: () =&gt; import(/* webpackChunkName: &quot;404&quot; */ './views/404.vue'),
+    },
+  ],
+});
+
+// 路由导航钩子的用法
+router.beforeEach((to, from, next) =&gt; {
+  if(from.path.indexOf('/preview') &lt; 0) {
+    sessionStorage.setItem('prevToPreviewPath', from.path);
+  }
+  next();
+})
+
+export default router
+</code></pre></div><h5 id="_7-对指定页面使用keep-alive路由缓存"><a href="#_7-对指定页面使用keep-alive路由缓存" class="header-anchor">#</a> 7：对指定页面使用keep-alive路由缓存</h5> <p>keep-alive是vue的内置组件，能在组件切换过程中将状态保留在内存中，防止重复渲染DOM。</p> <h6 id="_7-1通过路由配置文件和router-view"><a href="#_7-1通过路由配置文件和router-view" class="header-anchor">#</a> 7.1通过路由配置文件和router-view</h6> <div class="language- extra-class"><pre class="language-text"><code>// routes 配置
+export default [
+  {
+    path: '/A',
+    name: 'A',
+    component: A,
+    meta: {
+      keepAlive: true // 需要被缓存
+    }
+  }, {
+    path: '/B',
+    name: 'B',
+    component: B,
+    meta: {
+      keepAlive: false // 不需要被缓存
+    }
+  }
+]
+</code></pre></div><p>路由视图配置：</p> <div class="language- extra-class"><pre class="language-text"><code>// 路由设置
+&lt;keep-alive&gt;
+    &lt;router-view v-if=&quot;$route.meta.keepAlive&quot;&gt;
+        &lt;!-- 会被缓存的视图组件--&gt;
+    &lt;/router-view&gt;
+&lt;/keep-alive&gt;
+
+&lt;router-view v-if=&quot;!$route.meta.keepAlive&quot;&gt;
+    &lt;!-- 不需要缓存的视图组件--&gt;
+&lt;/router-view&gt;
+</code></pre></div><h6 id="_7-2-通过router-view的key属性"><a href="#_7-2-通过router-view的key属性" class="header-anchor">#</a> 7.2  通过router-view的key属性</h6> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;keep-alive&gt;
+      &lt;router-view :key=&quot;key&quot; /&gt;
+    &lt;/keep-alive&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script lang=&quot;ts&quot;&gt;
+import { Vue } from 'vue-property-decorator';
+import Component from 'vue-class-component';
+@Component
+export default class App extends Vue {
+  get key() {
+    // 缓存除预览和登陆页面之外的其他页面
+    console.log(this.$route.path)
+    if(this.$route.path.indexOf('/preview') &gt; -1) {
+      return '0'
+    }else if(this.$route.path === '/login') {
+      return '1'
+    }else {
+      return '2'
+    }
+  }
+}
+&lt;/script&gt;
+</code></pre></div><h5 id="_8-常用工具函数总结"><a href="#_8-常用工具函数总结" class="header-anchor">#</a> 8：常用工具函数总结</h5> <ul><li>识别ie浏览器</li></ul> <div class="language- extra-class"><pre class="language-text"><code>export const isIe =()=&gt;{
+	let explorer = window.navigator.userAgent
+	//判断ie
+    if(explorer.indexOf(&quot;MSIE&quot;) &gt;0){
+    	return true
+    }else{
+    	return false
+    }
+}
+</code></pre></div><ul><li>获取url参数对象</li></ul> <div class="language- extra-class"><pre class="language-text"><code>export const getQueryString =()=&gt;{
+	let qs=locattion.href.split('?')[1] || '',
+	args= {}
+	items = qs.length ? qs.split('&amp;'):[]
+	items.forEach((item,i)=&gt;{
+		let arr = item.split('=')
+			name = decodeURLComponent(arr[0])
+			value = decodeURLComponent(arr[1])
+			name.length &amp;&amp; (args[name] =value)
+	})
+	return args
+}
+</code></pre></div><ul><li>解析url参数</li></ul> <div class="language- extra-class"><pre class="language-text"><code>export const paramsToStringify = (params) =&gt;{
+	if(parmas){
+		let query = []
+		for(let key in params){
+			query.push(`${key}=${params[key]}`)
+		}
+		return `${query.join('&amp;')}`
+	}else{
+		return ''
+	}
+}
+</code></pre></div><ul><li>将数据转化为数组</li></ul> <div class="language- extra-class"><pre class="language-text"><code>export const toArray = (data)=&gt;{
+	return Array.isArray(data)?data:[data]
+}
+</code></pre></div><ul><li>带参数跳转</li></ul> <div class="language- extra-class"><pre class="language-text"><code>/**
+ *  带参数跳转url（hash模式）
+ * @param {String} url 
+ * @param {Object} params 
+ */
+export const toPage = (url, params) =&gt; {
+    if(params){
+        let query = [];
+        for(let key in params){
+            query.push(`${key}=${params[key]}`)
+        }
+        window.location.href = `./index.html#/${url}?${query.join('&amp;')}`;
+    }else{
+        window.location.href = `./index.html#/${url}`;
+    }
+}
+</code></pre></div><ul><li>控制字符串显示，超出制定字数则显示省略号</li></ul> <div class="language- extra-class"><pre class="language-text"><code>/**
+ * 指定字符串 溢出显示省略号
+ * @param {String} str
+ * @param {Number} num
+ */
+ export const getSubStringSum = (str = '',num=1)=&gt;{
+ 	let newStr
+ 	if(str){
+ 		str = str+'';
+ 		if(str.trim().length &gt;num){
+ 			newStr = str.trim().substring(0,num) + &quot;...&quot;
+ 		}else{
+ 			newStr = str.trim()
+ 		}
+ 	}else{
+ 		newStr = ''
+ 	}
+ 	return newStr
+ }
+</code></pre></div><ul><li>生成指定格式的时间字符串</li></ul> <div class="language- extra-class"><pre class="language-text"><code>/**
+ * 生成指定格式的时间
+ * @param {*} timeStemp 时间戳
+ * @param {*} flag 格式符号
+ */
+export function formatTime(timeStemp, flag) {
+    let time = new Date(timeStemp);
+    let timeArr = [time.getFullYear(), time.getMonth() + 1, time.getDate()];
+    return timeArr.join(flag || '/')
+}
+</code></pre></div><h5 id="_9-基于axios二次封装一个具有请求、响应拦截的http请求"><a href="#_9-基于axios二次封装一个具有请求、响应拦截的http请求" class="header-anchor">#</a> 9：基于axios二次封装一个具有请求、响应拦截的http请求</h5> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">'axios'</span>
+<span class="token keyword">import</span> qs <span class="token keyword">from</span> <span class="token string">'qs'</span>
+
+<span class="token comment">//请求拦截</span>
+axios<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>request<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token parameter">config</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token comment">//此处可以加懒加载</span>
+    <span class="token keyword">return</span> config
+<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token parameter">error</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">//响应拦截</span>
+axios<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token parameter">response</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> response
+<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token parameter">error</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>error<span class="token punctuation">.</span>response<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">checkStatus</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">//此处可以封装一些懒加载</span>
+    <span class="token comment">//如果http状态码正常，则直接返回数据</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>status <span class="token operator">===</span> <span class="token number">200</span> <span class="token operator">||</span> response<span class="token punctuation">.</span>status <span class="token operator">===</span> <span class="token number">304</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> response<span class="token punctuation">.</span>data
+            <span class="token comment">//如果不需要data之外的数据，可以直接return response.data</span>
+        <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>status <span class="token operator">===</span> <span class="token number">401</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            location<span class="token punctuation">.</span>href <span class="token operator">=</span> <span class="token string">'/login'</span>
+        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+            <span class="token keyword">throw</span> response<span class="token punctuation">.</span>data
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        <span class="token keyword">throw</span><span class="token punctuation">{</span>data<span class="token operator">:</span><span class="token string">'网络错误'</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//axios默认参数配置</span>
+axios<span class="token punctuation">.</span>defaults<span class="token punctuation">.</span>baseURL <span class="token operator">=</span> <span class="token string">'/api/v0'</span>
+axios<span class="token punctuation">.</span>defaults<span class="token punctuation">.</span>timeout <span class="token operator">=</span> <span class="token number">10000</span>
+
+<span class="token comment">//restful API封装</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span><span class="token punctuation">{</span>
+    <span class="token function">post</span><span class="token punctuation">(</span><span class="token parameter">url<span class="token punctuation">,</span>data</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            method<span class="token operator">:</span><span class="token string">'post'</span><span class="token punctuation">,</span>
+            url<span class="token punctuation">,</span>
+            data<span class="token operator">:</span>qs<span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">,</span>
+            headers<span class="token operator">:</span><span class="token punctuation">{</span>
+                <span class="token string">'X-Requested-With'</span><span class="token operator">:</span><span class="token string">'XMLHttpRequest'</span><span class="token punctuation">,</span>
+                <span class="token string">'Content-Type'</span><span class="token operator">:</span><span class="token string">'application/x-www-form-urlencoded;charset=UTF-8'</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+                <span class="token keyword">return</span> <span class="token function">checkStatus</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">get</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>params<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            method<span class="token operator">:</span><span class="token string">'get'</span><span class="token punctuation">,</span>
+            url<span class="token punctuation">,</span>
+            params<span class="token punctuation">,</span> <span class="token comment">//get请求市时携带的参数</span>
+            headers<span class="token operator">:</span><span class="token punctuation">{</span>
+                <span class="token string">'X-Request-With'</span><span class="token operator">:</span><span class="token string">'XMLHttpRequest'</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token function">checkStatus</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">del</span><span class="token punctuation">(</span><span class="token parameter">url<span class="token punctuation">,</span>params</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            method<span class="token operator">:</span><span class="token string">'delete'</span><span class="token punctuation">,</span>
+            url<span class="token punctuation">,</span>
+            params<span class="token punctuation">,</span> <span class="token comment">//get请求市时携带的参数</span>
+            headers<span class="token operator">:</span><span class="token punctuation">{</span>
+                <span class="token string">'X-Request-With'</span><span class="token operator">:</span><span class="token string">'XMLHttpRequest'</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token function">checkStatus</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h5 id="_10-原生js实现简单的双向数据绑定"><a href="#_10-原生js实现简单的双向数据绑定" class="header-anchor">#</a> 10：原生js实现简单的双向数据绑定</h5> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>txt<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>show<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+	<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span><span class="token string">'txt'</span><span class="token punctuation">,</span><span class="token punctuation">{</span>
+        <span class="token function-variable function">get</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> obj
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">set</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">newValue</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'txt'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>value <span class="token operator">=</span> newValue
+            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'show'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> newValue
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'keyup'</span><span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        obj<span class="token punctuation">.</span>txt <span class="token operator">=</span> e<span class="token punctuation">.</span>target<span class="token punctuation">.</span>value
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h5 id="_11-vue路由实现-hash模式和history模式"><a href="#_11-vue路由实现-hash模式和history模式" class="header-anchor">#</a> 11：Vue路由实现：hash模式和history模式</h5> <p>hash模式：在浏览器中以“#”出现，用window.location.hash读取</p> <p>​					hash虽然在URL中，但不被包括在HTTP请求中，用来指导浏览器动作，对服务器安全无用，hash不					会重加载页面。hahs模式下，仅hash符号之前的内容会被包含在请求中，如www.baidu.com，对于					后端来说，即使没有做到对路由的全覆盖，也不会返回404错误。</p> <p>history模式：采用heml5的新特性，且提供了2个新方法：pushState()    replaceState()可以对浏览器历史记录栈						进行修改，以及popState事件的监听到状态变更。</p> <h5 id="_12-vue自定义一个过滤器"><a href="#_12-vue自定义一个过滤器" class="header-anchor">#</a> 12：Vue自定义一个过滤器</h5> <div class="language- extra-class"><pre class="language-text"><code>//html代码
+	&lt;div id=&quot;app&quot;&gt;
+		&lt;input type=&quot;text&quot; v-model=&quot;msg&quot;/&gt;
+		{{msg |capitalize}}
+	&lt;/div&gt;
+//js代码
+	var vm=new Vue({
+		el:&quot;#app&quot;,
+		data:{
+			mag:'定义过滤器'
+		},
+		filters:{
+			capitalize:function(value){
+				if(!value) retirn ''
+				value = value.toString()
+				return value.charAt(0).toUpperCase() + value.slice(1)
+			}
+		}
+	})
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>//在main.js中定义全局过滤器
+    Vue.filter('capitalize', function (value) {
+      if (!value) return ''
+      value = value.toString()
+      return value.charAt(0).toUpperCase() + value.slice(1)
+    })
+</code></pre></div><h5 id="_13-vue项目中使用token的身份验证的简单实践"><a href="#_13-vue项目中使用token的身份验证的简单实践" class="header-anchor">#</a> 13：vue项目中使用token的身份验证的简单实践</h5> <p>https://juejin.cn/post/6844903785257500679</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/my-blog/assets/js/app.af9a026c.js" defer></script><script src="/my-blog/assets/js/2.1f15f8f6.js" defer></script><script src="/my-blog/assets/js/13.4a02f44b.js" defer></script>
+  </body>
+</html>
